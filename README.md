@@ -28,15 +28,18 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
 * **Key Libraries:**
     * `NumPy`: For numerical operations and handling of arrays.
     * `SciPy`: For scientific computing, including integration and optimization.
-    * `matplotlib`/`seaborn`: For data visualization and plotting.
+    * `math`: For mathematical symbols and operations.
+    * `cmath`: For complex numbers and operations. 
     * `pandas`: For data manipulation and analysis (if applicable).
+    * `typing`: For different types of data, especially `key`:`value` types.
+
    
 ## How to Use
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone [https://github.com/BrunaHelua/projeto-mestrado-IFGW-HEP.git](https://github.com/BrunaHelua/projeto-mestrado-IFGW-HEP.git)
+    cd projeto-mestrado-IFGW-HEP
     ```
 
 2.  **Set up the environment:**
@@ -74,5 +77,6 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
 
 Here you should include the full citations for the two papers you are comparing. For example:
 
-1.  **[Author(s) of Paper 1]**, *[Title of Paper 1]*, [Journal], [Volume], [Page Number] ([Year]). [DOI or arXiv link]
-2.  **[Author(s) of Paper 2]**, *[Title of Paper 2]*, [Journal], [Volume], [Page Number] ([Year]). [DOI or arXiv link]
+1.  **[Pich, A., Solomonidi, E., and Silva, L. V.]**, *[Final-state interactions in the CP asymmetries
+of charm-meson two-body decays]*, [PHYSICAL REVIEW D], **[108]**, [036026] ([2023]). [DOI: 10.1103/PhysRevD.108.036026]
+2.  **[Bediaga I., Frederico T., Magalhães P. C.]**, *[Enhanced Charm CP Asymmetries from Final State Interactions]*, [PHYSICAL REVIEW LETTERS], **[131]**, [051802] ([2023]). [DOI: 10.1103/PhysRevLett.131.051802]
