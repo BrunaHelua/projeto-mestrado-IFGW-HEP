@@ -1,0 +1,44 @@
+# Arquivos de Cache e Backups do Jupyter Notebook e IPython
+# Essencial para evitar lixo no repositório.
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ambientes Virtuais do Python
+# Nunca envie seu ambiente virtual para o GitHub!
+# Eles são específicos da sua máquina e podem ser enormes.
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# Arquivos de configuração de IDEs e Editores
+# Evita conflitos e arquivos desnecessários de configuração pessoal.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Arquivos de Dados
+# O Git não foi feito para armazenar dados grandes.
+# Se seus dados forem pequenos, você pode comentar a linha abaixo.
+# Se forem grandes, mantenha-os fora do Git e explique no README.md como obtê-los.
+*.csv
+*.parquet
+*.xlsx
+data/
+
+# Arquivos de Saída e Logs
+# Arquivos gerados pelo seu script (gráficos, relatórios, logs) não devem ser versionados.
+output/
+results/
+logs/
+*.log
+
+# Arquivos de Credenciais e Segredos
+# NUNCA envie senhas ou chaves de API para o GitHub!
+credentials.json
+secrets.yml
+*.pem
