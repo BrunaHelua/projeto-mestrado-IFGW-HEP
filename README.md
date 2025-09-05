@@ -19,7 +19,7 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
 ### Core Functionalities
 
 * **Calculation of Decay Amplitudes:** Scripts to compute the decay amplitudes for $D^0 \to \pi\pi$ and $D^0 \to KK$ within the proposed frameworks.
-* **Implementation of FSI Models:** Independent implementations of the different Final State Interaction models used in the compared papers. This includes the calculation of relevant loop diagrams, rescattering amplitudes, and the extraction of strong phases.
+* **Implementation of FSI Models:** Independent implementations of the different Final State Interaction models used in the compared papers, focusing on the rescattering amplitudes and their dependency on strong phases.
 * **CP Asymmetry Calculation:** Code to compute the direct CP asymmetry parameter, $A_{CP}$, based on the calculated decay amplitudes for the D meson and its antiparticle.
 
 ### Technologies Used
@@ -27,10 +27,8 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
 * **Language:** Python 3.8+
 * **Key Libraries:**
     * `NumPy`: For numerical operations and handling of arrays.
-    * `SciPy`: For scientific computing, including integration and optimization.
     * `math`: For mathematical symbols and operations.
     * `cmath`: For complex numbers and operations. 
-    * `pandas`: For data manipulation and analysis (if applicable).
     * `typing`: For different types of data, especially `key`:`value` types.
 
    
@@ -55,19 +53,17 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
     ```
 
 4.  **Running the code:**
-    The main validation scripts can be found in the `src/` or `notebooks/` directory. For example, to reproduce a key calculation from one of the papers:
+    The main validation scripts can be found in the `projeto-mestrado-IFGW-HEP/scripts` directory. For example, to reproduce a key calculation from one of the papers:
     ```bash
-    python src/validate_paper_1.py
+    python src/testes_bruna_amplitudes_1.py
     ```
-    Or, you can explore the Jupyter notebooks in the `notebooks/` directory for a more interactive analysis.
+    Or, you can explore the Jupyter notebook in the same directory for a more interactive analysis.
 
 ## Project Structure
 
 .
-├── data/               # Experimental data or model parameters
 ├── notebooks/          # Jupyter notebooks for analysis and visualization
 ├── src/                # Source code for calculations and validations
-├── plots/              # Directory to save generated plots
 ├── .gitignore          # Files to be ignored by Git
 ├── LICENSE             # Your chosen open-source license
 └── README.md           # This file
