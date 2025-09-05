@@ -57,7 +57,7 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
     ```bash
     python src/testes_bruna_amplitudes_1.py
     ```
-    Or, you can explore the Jupyter notebook in the same directory for a more interactive analysis.
+    Or, you can explore the Jupyter notebook in notebooks/ directory for a more interactive analysis.
 
 ## Project Structure
 
