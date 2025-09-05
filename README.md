@@ -62,17 +62,15 @@ of charm-meson two-body decays", by Antonio Pich, Eleftheria Solomonidi, and Lui
 ## Project Structure
 
 .
-├── notebooks/          # Jupyter notebooks for analysis and visualization
-├── src/                # Source code for calculations and validations
-├── .gitignore          # Files to be ignored by Git
-├── LICENSE             # Your chosen open-source license
-└── README.md           # This file
+├── notebooks/          
+├── src/                
+├── .gitignore          
+├── LICENSE             
+└── README.md           
 
 
 ## References
-
-Here you should include the full citations for the two papers you are comparing. For example:
-
+ 
 1.  **[Pich, A., Solomonidi, E., and Silva, L. V.]**, *[Final-state interactions in the CP asymmetries
 of charm-meson two-body decays]*, [PHYSICAL REVIEW D], **[108]**, [036026] ([2023]). [DOI: 10.1103/PhysRevD.108.036026]
 2.  **[Bediaga I., Frederico T., Magalhães P. C.]**, *[Enhanced Charm CP Asymmetries from Final State Interactions]*, [PHYSICAL REVIEW LETTERS], **[131]**, [051802] ([2023]). [DOI: 10.1103/PhysRevLett.131.051802]
