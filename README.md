@@ -1,6 +1,8 @@
 
 # CP Violation in D Meson Decays: A Comparative Study of FSI Models
 
+[![DOI](https://zenodo.org/badge/1043505012.svg)](https://doi.org/10.5281/zenodo.17068924)
+
 This repository hosts the computational tools and analysis codes for the Master's thesis project titled: "CP Symmetry Violation in charmed decays: New Physics or Non-perturbative effects?".
 
 ## Description
